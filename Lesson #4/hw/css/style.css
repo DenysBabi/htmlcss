@@ -21,8 +21,9 @@ sub {
 
 .box {
     background-color: white;
-    height: 500px; 
+    height: 499px; 
     width: 100px;
+    padding: 1px 0px;
 }
 
 .boxBlack {
@@ -43,12 +44,14 @@ sub {
     background-color: green;
     height: 300px;
     width: 500px;
+    padding-top: 5px;
 }
 
 h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
-    color: white;  
+    color: white;
+    margin: 5px 10px;
 }
 
 h4+p {
@@ -62,13 +65,20 @@ h4+p {
     background-color: white;
     height: 40px;
     width: 300px;
+    border: 1px solid transparent;
 }
 
 .boxFon {
     background-color: rgb(77, 75, 75);
-    height: 30px;
+    height: 29px;
     width: 290px;
-    margin: 5px 5px;
+    margin: 5px;
+    border: 1px solid transparent;
+
+}
+
+ul {
+    margin: 5px 0px;
 }
 
 ul li {
