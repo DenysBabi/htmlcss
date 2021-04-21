@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #1B0A42;
+}
+
+.header__conteiner{
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__logo-url{
+    margin-right: 97px;
+}
+
+.header__menu{
+    display: flex;
+    font-size: 16px;
+}
+
+.header__menu-list{
+    margin-right: 40px;
+}
+
+.header__menu-url{
+    letter-spacing: 0.02em;
+}
+
+.header__menu-list:last-child{
+    margin-right: 0px;
+}
+
+.header__SignIn{
+    display: flex;
+    letter-spacing: 0.02em;
+    margin-left: 700px;
+    font-size: 16px;
+}
+
+button.header__SignUp{
+    letter-spacing: 0.02em;
+    margin-left: 70px;
+    background: #33A2E0;
+    border-radius: 6px;
+    width: 120px;
+    padding: 18px 0px;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+button.header__SignUp:hover{
+    background: #2e87bb;
+}
+
+/* content */
+
+.content{
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.content__inner{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    letter-spacing: 0.02em;
+    margin-left: 200px;
+}
+
+.content__inner-left{
+    align-items: flex-end;
+    margin-top: 60px;
+}
+.content__inner-left-th{
+    font-family: 'Ramaraja', serif;
+    font-size: 72px;
+    line-height: 76px;
+    color: #1B0A42;
+    width: 495px;
+}
+
+.content__inner-left-ts{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #9A9A9A;
+    width: 580px;
+    height: 100px;
+}
+
+.content__inner-left-button{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+
+    width: 150px;
+    background: #33A2E0;
+    border-radius: 6px;
+    padding: 18px 0px;
+    border-style: none;
+    cursor: pointer;
+    transition: all .3s;
+
+    margin-top: 50px;
+
+}
+
+.content__inner-left-button:hover{
+    background-color: #2e87bb;
+}
+
+.content__inner_img{
+    margin-right: 45px;
+}
