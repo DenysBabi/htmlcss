@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header__conteiner">
+        <p class="header__conteiner-p">User info</p>
+    </div>
+
+    <form action method="GET" target="_blank">
+       <div class="form__left">
+        <fieldset>
+            <legend>Authentication</legend>
+
+            <label class="form__left-label">
+                <p class="form__left-label-p">Login:<span>*</span></p>
+                <input type="text" name="" placeholder="Login"/>
+            </label>
+
+            
+            <label class="form__left-label">
+                <p class="form__left-label-p">Password:<span>*</span></p>
+                <input type="password" name="" placeholder="Password"/>
+            </label>
+
+            <label class="form__left-label">
+                <p class="form__left-label-p">Adress:</p>
+                <textarea cols="31" rows="10" name="" placeholder="Your address"></textarea>
+            </label>
+            
+            <label class="form__left-label">
+                <p class="form__left-label-p">City:</p>
+                <input type="text" name="" placeholder="Your city"/>
+            </label>
+
+            <label class="form__left-label">
+                <p class="form__left-label-p">Driver:</p>
+                <select name="driver">
+                    <option value="driver02" selected>-select-</option>
+                    <option value="driver01">Yes</option>
+                    <option value="driver02">No</option>
+                </select>
+            </label>
+
+            <label class="form__left-label">
+                <p class="form__left-label-p">Phone number:</p>
+                <input type="text" name="" placeholder="Phone +380"/>
+            </label>
+
+            <label class="form__left-label">
+                <p class="form__left-label-p">Website:</p>
+                <input type="text" name="URL" placeholder="Link"/>
+            </label>
+
+        </fieldset>
+        </div>
+
+
+        <div class="form__righ">
+            
+            <label class="form__righ-label">
+                <p>What kind of transport are you traveling?</p>
+                <div class="form__righ-label-input">
+                <input type="radio" name="transport" value="bike" checked/>Bike<br>
+                <input type="radio" name="transport" value="car"/>Car<br>
+                <input type="radio" name="transport" value="Airplane"/>Airplane<br>
+                </div>
+            </label>
+
+            <label class="form__righ-label">
+                <p>What is the best way to contact you?</p>
+                <div class="form__righ-label-input">
+                <input type="radio" name="contact" value="phone" checked/>Phone<br>
+                <input type="radio" name="contact" value="website"/>Website<br>
+                </div>
+            </label>
+
+
+            <label class="form__righ-label">
+                <p>Message:</p>
+                <div class="form__righ-label-input">
+                <textarea cols="30" rows="12" name="" placeholder="Your message..."></textarea>
+                </div>
+            </label>
+               
+        
+        </div>
+    </form>
+
+        <div class="footer">
+            <input class="form__button" type="submit" value="Отправить">
+            <input class="form__button" type="reset" value="Сбросить">
+        </div>
+</body>
+</html>

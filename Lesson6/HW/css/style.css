@@ -1,0 +1,128 @@
+body  {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEAD */
+
+.header__conteiner {
+    height: 30px;
+    background: #0079cb;
+    color: white;
+    border-radius: 25px;
+    padding-top: 15px;
+}
+
+.header__conteiner-p {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+/* FORM */
+
+form {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+/* left flex item */
+
+.form__left {
+    width: 430px;
+}
+
+fieldset {
+    border: 2px solid #32a2ec;
+    width: 400px;
+    padding: 5px 5px;
+}
+
+legend {
+    text-align: left;
+    color: white;
+    background-color: #0079cb;
+    padding: 3px;
+}
+
+.form__left-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.form__left-label-p > span {
+    color: red;
+}
+
+.form__left-label > input {
+    width: 230px;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    width: 240px;
+}
+
+
+
+
+
+/* right flex item */
+
+.form__righ {
+    width: 400px;
+}
+
+
+.form__righ-label {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.form__righ-label-input > input {
+    margin-bottom: 5px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    width: 1000px;
+    height: 46px;
+    text-align: center;
+    background: #0079cb;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+
+.form__button {
+    margin-top: 5px;
+    background-color: white;
+    padding: 7px;
+    color: #0079cb;
+    position: relative;
+    
+
+    font-size: 15px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    border-color: #0079cb;
+    font-weight: bold;
+
+}
+
+.form__button:hover {
+    color: white;
+    background-color: #0079cb;
+    border-color: white;
+}
